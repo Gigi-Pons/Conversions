@@ -6,9 +6,10 @@
     </head>
     <body>
         <section id="home">
-            <header><b>Temperature Conversion</b></header>
+            <header><b>Conversions</b></header>
             <nav>
                 <a href="#temperature"><button>Temperature</button></a>
+                <a href="#measurement"><button>Measurement</button></a>
             </nav>
         </section>
         <div id="conversion-sections">
@@ -36,7 +37,34 @@
                         Use this formula to do it yourself: (C x 9/5) + 32
                     </aside>
                 </div>
+            </section> <br/> <br/> <br/>
+
+            <section id="measurement">
+                <div id="measure">
+                    <figure>
+                        <img src="ruler.jpg" width="350" height="300">
+                        <figcaption>Inches to Centimeters</figcaption>
+                    </figure>
+
+                    <article>
+                        <fieldset>
+                            <legend>Measurement</legend>
+
+                            <label for="i">Inches</label> <br/>
+                            <input type="number" id="i"> <br/>
+                            
+                            <button id="measurement"> Convert </button> <br/>
+
+                            <input type="number" id="c"> <br/>
+                            <label for="c">Centimeters</label>
+                        </fieldset>
+                    </article>
+                    <aside>
+                        Use this formula to do it yourself: Inches x 2.54
+                    </aside>
+                </div>
             </section>
+
         </div>
     </body>
 </html>
