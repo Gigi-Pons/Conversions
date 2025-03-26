@@ -1,0 +1,57 @@
+body {
+    background-color: seashell;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+
+img {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+#conversion-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#temperature, #measurement {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 75px;
+    display: flex;
+    border-radius: 5px;
+}
+
+#inside-box fieldset {
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 10px;
+}
+
+
+#inside-box label, #inside-box input, #inside-box button {
+    margin-bottom: 0px; 
+    justify-self: center;
+    margin: 5px;
+}
+
+#temp, #measure {
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: 2px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    justify-self: center;
+}

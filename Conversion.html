@@ -3,14 +3,12 @@
 <html>
     <head>
         <title>Conversion</title>
+        <link rel="stylesheet" href="Conversion.css"/>
     </head>
     <body>
         <section id="home">
-            <header><b>Conversions</b></header>
-            <nav>
-                <a href="#temperature"><button>Temperature</button></a>
-                <a href="#measurement"><button>Measurement</button></a>
-            </nav>
+            <header>Conversions</header>
+
         </section>
         <div id="conversion-sections">
             <section id="temperature">
@@ -20,17 +18,20 @@
                         <figcaption>Celsius to Farenheit</figcaption>
                     </figure>
 
-                    <article>
+                    <article id="inside-box">
                         <fieldset>
-                            <legend>Temperature</legend>
+                            <legend id="box">Temperature</legend>
 
                             <label for="c">Celsius</label> <br/>
                             <input type="number" id="c"> <br/>
                             
-                            <button id="temperature"> Convert </button> <br/>
+                            
 
+                            <label for="f">Farenheit</label> <br/>
                             <input type="number" id="f"> <br/>
-                            <label for="f">Farenheit</label>
+
+                            <button> Convert </button> 
+                            
                         </fieldset>
                     </article>
                     <aside>
@@ -46,17 +47,17 @@
                         <figcaption>Inches to Centimeters</figcaption>
                     </figure>
 
-                    <article>
+                    <article id="inside-box">
                         <fieldset>
                             <legend>Measurement</legend>
 
                             <label for="i">Inches</label> <br/>
                             <input type="number" id="i"> <br/>
-                            
-                            <button id="measurement"> Convert </button> <br/>
 
+                            <label for="c">Centimeters</label> <br/>
                             <input type="number" id="c"> <br/>
-                            <label for="c">Centimeters</label>
+
+                            <button id="measureButton"> Convert </button> <br/>
                         </fieldset>
                     </article>
                     <aside>
@@ -66,5 +67,6 @@
             </section>
 
         </div>
+
     </body>
 </html>
