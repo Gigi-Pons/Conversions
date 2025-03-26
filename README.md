@@ -16,3 +16,4 @@ This is purely to show html and css files working together.
 To run this project, download or clone the repo and open the index.html file in a browser to view the conversion interface.
 
 ## Visual
+![Alt text](screenshot.png)
